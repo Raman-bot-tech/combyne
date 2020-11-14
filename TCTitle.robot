@@ -7,7 +7,7 @@ ${browser}  chrome
 ${url}  https://demo.combyne.ag/login
 
 *** Test Cases ***
-LoginTest5
+TitleTest
 
     open browser    ${url}      ${browser}
     maximize browser window
