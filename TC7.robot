@@ -1,3 +1,5 @@
+# This test is to verify the failure using valid email, wrong password with error message.
+
 *** Settings ***
 Library  SeleniumLibrary
 

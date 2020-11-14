@@ -1,3 +1,5 @@
+# This test is to verify the forgot link functionality on login page.
+
 *** Settings ***
 Library  SeleniumLibrary
 

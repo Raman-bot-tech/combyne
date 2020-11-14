@@ -1,3 +1,5 @@
+# This test is to verify the failure using invalid email with error message.
+
 *** Settings ***
 Library  SeleniumLibrary
 
@@ -26,7 +28,7 @@ LoginTest5
 
 *** Keywords ***
 Inputdata
-    input text  xpath://body/div[@id='ui']/div[1]/div[1]/form[1]/div[1]/div[3]/div[1]/div[1]/div[1]/fieldset[1]/div[1]/input[1]    ${email}
+    input text  xpath://body/div[@id='ui']/div[1]/div[1]/form[1]/div[1]/div[3]/div[1]/div[1]/div[1]/fieldset[1]/div[1]/input[1]     ${email}
     input text  xpath://body/div[@id='ui']/div[1]/div[1]/form[1]/div[1]/div[3]/div[2]/div[1]/div[1]/fieldset[1]/div[1]/input[1]     ${password}
     click element    xpath://body/div[@id='ui']/div[1]/div[1]/form[1]/div[1]/div[5]/input[1]
 

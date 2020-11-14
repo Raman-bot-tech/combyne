@@ -1,3 +1,5 @@
+# This test is to verify the login page elements such as title, username field, password field.
+
 *** Settings ***
 Library  SeleniumLibrary
 

@@ -1,3 +1,5 @@
+# This test is to verify the failure using empty email and password fields with error message.
+
 *** Settings ***
 Library  SeleniumLibrary
 
@@ -6,12 +8,9 @@ Library  SeleniumLibrary
 ${browser}  chrome
 ${url}  https://demo.combyne.ag/login
 
-${email}    abc@gmail.com
-${password}     1111
-
 
 *** Test Cases ***
-LoginTest7
+LoginTest8
 
     open browser    ${url}      ${browser}
     maximize browser window

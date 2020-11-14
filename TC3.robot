@@ -1,3 +1,5 @@
+# This test is to verify the create account link.
+
 *** Settings ***
 Library  SeleniumLibrary
 

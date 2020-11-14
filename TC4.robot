@@ -1,3 +1,5 @@
+# This test is to verify the Contact us link.
+
 *** Settings ***
 Library  SeleniumLibrary
 
