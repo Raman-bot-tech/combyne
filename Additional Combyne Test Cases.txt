@@ -1,0 +1,18 @@
+Additional Test Cases for Combyne Login Page
+
+1. Verification of Page Title with verification of Email and Password text boxes enabled/visible on Login Page. (Manual/Automation)
+2. Verification of Successful Login (Automation script)
+3. Verification of working of Forgot Password Link (Automation script)
+4. Verification of create account link (Automation script)
+5. Verification of Contact us Link (Automation script)
+6. Verify Invalid email - Failed login with Error message for wrong email (Automation script)
+7. Verify Valid email - No linked account Error message - Failed Login (Automation script)
+8. Verify Valid email - wrong password - Error password message - Failed login (Automation script)
+9. Verify login with no email and no password (Automation script)
+
+Kinldy note test scripts for 10-13 test cases are not submitted as part of this work simulation. 
+
+10. Verify all TestCases in various browsers. (Automation script)
+11. Verify Font, text, color, logo is as per requirement (Automation script)
+12. Verify the time taken to login successfully (Automation script)
+13. Verify if user can login using same credential on different browsers at same time (Manual/Automation)
